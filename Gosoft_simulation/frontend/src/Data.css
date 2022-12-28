@@ -1,0 +1,164 @@
+.app-container {
+  background-color: #151515, #FF9A5A;
+  /* background-color: linear-gradient(to bottom right,); */
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  box-shadow: 0 4px 15px rgba(14, 13, 13, 0.3);
+  /* text-align: center; */
+}
+
+.App-header {
+  background: linear-gradient(320deg, #d9d4ff, #f7c4c2, #f298b2);
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: rgb(241, 241, 241);
+}
+
+.container {
+  padding: 2rem;
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th,
+td {
+
+  border: 2px solid #191717;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table_scroll {
+  overflow-y: scroll;
+  height: 400px;
+  /* background-color: rgb(23, 129, 221); */
+  /* padding: 40px;  */
+}
+
+
+
+/* CSS */
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+.input_barcode {
+  height: 30px;
+  width: 25%;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.input_number {
+  height: 30px;
+  width: 25%;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-save {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  font-size: auto;
+}
+
+.table_scroll {
+  overflow-y: scroll;
+  height: 300px;
+  backdrop-filter: blur (5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(230, 108, 108, 0.547);
+  border: 1px solid rgba(201, 15, 15, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(24, 17, 17, 0.3);
+  color: #232323;
+  font-size: 40px;
+  overflow: auto;
+  padding: 25px;
+  text-align: right;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(173, 64, 34);
+}
+
+.button_delete {
+  height: 30px;
+  width: 100px;
+  margin: 20px;
+  color: white;
+  background-color: rgb(230, 29, 29);
+  border-radius: 10px;
+  border: none;
+}

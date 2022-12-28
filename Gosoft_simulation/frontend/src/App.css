@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  /* background-color: #050b17;
+  color: rgb(241, 241, 241);
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  min-width: 50vh; */
+}
+
+.App-header {
+  background-color: #050b17;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(241, 241, 241);
+ 
+}
+
+
